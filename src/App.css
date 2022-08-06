@@ -23,11 +23,22 @@ nav{
   padding: 40px ;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and  (min-width: 300px){
+  body{
+    width: 100vw;
+  }
+  nav{
+    width: 100vw;
+  }
    .heroimg{
     max-width:min-content;
     width: 400px;
    }  
+   .container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   }
 }
 /* card css */
 
@@ -59,7 +70,7 @@ padding: 40px;
   flex-direction: column;
   font-size: 1em;
 }
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) and  (min-width: 300px){ 
   .flexx{
     display: flex;
     flex-direction: row;
