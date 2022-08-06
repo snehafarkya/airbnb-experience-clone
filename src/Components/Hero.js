@@ -1,5 +1,7 @@
 import React from 'react'
 import hero from "../images/collage.png"
+import Navbar from "./Navbar";
+import Card from './Card';
 export default function Hero() {
   return ( 
 
